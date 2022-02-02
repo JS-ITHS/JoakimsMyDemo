@@ -50,7 +50,7 @@ public class BigClass {
         if(n >= 0) {
             this.number = number+n;
         } else {
-            System.out.println("Enter a positive integer");
+            System.out.println("Enter a positive integer.");
         }
     }
 }
