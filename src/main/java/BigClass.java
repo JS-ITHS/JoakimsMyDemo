@@ -53,4 +53,13 @@ public class BigClass {
             System.out.println("Enter a positive integer.");
         }
     }
+    //7. toString-metod.
+
+    @Override
+    public String toString() {
+        return "BigClass{" +
+                "number=" + number +
+                ", text='" + text + '\'' +
+                '}';
+    }
 }
