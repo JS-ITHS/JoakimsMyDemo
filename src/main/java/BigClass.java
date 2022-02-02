@@ -35,4 +35,9 @@ public class BigClass {
         return text;
     }
 
+    //4. Gör om text-variabeln till stora bokstäver
+    public String stringToUpperCase() {
+        return text.toUpperCase();
+    }
+
 }
