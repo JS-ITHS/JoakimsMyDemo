@@ -16,4 +16,15 @@ public class BigClass {
         this.text = text;
     }
 
+    public void setNumber(int number) {
+        if (number >= 0) {
+            this.number = number;
+        } else {
+            System.out.println("Enter a positive integer");
+        }
+    }
+    public int getNumber() {
+        return number;
+    }
+
 }
