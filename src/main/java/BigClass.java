@@ -44,4 +44,13 @@ public class BigClass {
     public void textToNull() {
         this.text = null;
     }
+
+    //6. Adderar number med nytt tal. Ersätter number-variabeln med summan. Neg ej accepteras.
+    public void addToNumber(int n) {
+        if(n >= 0) {
+            this.number = number+n;
+        } else {
+            System.out.println("Enter a positive integer");
+        }
+    }
 }
