@@ -40,4 +40,8 @@ public class BigClass {
         return text.toUpperCase();
     }
 
+    //5. Metod for att göra om text-variabeln till null.
+    public void textToNull() {
+        this.text = null;
+    }
 }
