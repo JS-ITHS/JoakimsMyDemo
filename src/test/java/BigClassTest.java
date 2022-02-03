@@ -88,6 +88,40 @@ class BigClassTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void checkTextToNullMethod() {
+        testObject = new BigClass();
+
+        testObject.setText("Hallå Hej!");
+        testObject.textToNull();
+        String expected = null;
+        String actual = testObject.getText();
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void checkAddToNumberMethod() {
+        testObject = new BigClass();
+
+        testObject.addToNumber(1);
+        int expected = 1;
+        int actual = testObject.getNumber();
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void checkAddNegativeNumber() {
+        testObject = new BigClass(5);
+
+        testObject.addToNumber(-2);
+        int expected = 5;
+        int actual = testObject.getNumber();
+
+        assertEquals(expected, actual);
+    }
+
 
 
 }
